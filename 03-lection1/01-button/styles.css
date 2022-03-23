@@ -3,17 +3,11 @@ html {
     background-color: var(--grey-5);
 }
 
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    grid-row-gap: var(--spacing-l);
-    margin: var(--spacing-l);
+body {
+    margin: var(--spacing-xxl);
+    display: flex;
 }
 
-.row-title {
-    color: var(--grey-3);
-    font-weight: var(--font-weight-500);
-    text-transform: uppercase;
-    user-select: none;
+button {
+    margin-right: var(--spacing-l);
 }

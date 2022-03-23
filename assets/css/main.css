@@ -39,6 +39,7 @@
     --font-weight-500: 500;
     --font-weight-600: 600;
     --font-weight-700: 700;
+    --font-size-normal: 16px;
 }
 
 * {
