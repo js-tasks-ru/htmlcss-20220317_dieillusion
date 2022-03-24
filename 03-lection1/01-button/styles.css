@@ -1,0 +1,13 @@
+html {
+    height: 100vh;
+    background-color: var(--grey-5);
+}
+
+body {
+    margin: var(--spacing-xxl);
+    display: flex;
+}
+
+button {
+    margin-right: var(--spacing-l);
+}
