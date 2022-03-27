@@ -1,10 +1,10 @@
 /* Стилизация аккордеона */
 
-details summary::-webkit-details-marker {
-    display:none;
+.accordion__item > .accordion__header::-webkit-details-marker {
+    display: none;
 }
 
-details > summary:first-of-type {
+.accordion__item > .accordion__header:first-of-type {
     list-style-type: none;
 }
 
@@ -16,15 +16,12 @@ details > summary:first-of-type {
     font-size: var(--font-size-normal);
 }
 
-.accordion .accordion__item {
-    margin-bottom: var(--spacing-m);
-}
-
 .accordion__item {
     background: var(--white);
     border: var(--border-width) solid var(--grey-3);
     box-sizing: border-box;
     border-radius: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
 }
 
 .accordion__header {
