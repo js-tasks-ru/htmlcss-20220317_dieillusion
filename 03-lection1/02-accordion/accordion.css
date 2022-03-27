@@ -1,10 +1,10 @@
 /* Стилизация аккордеона */
 
-.accordion__item > .accordion__header::-webkit-details-marker {
+.accordion__header::-webkit-details-marker {
     display: none;
 }
 
-.accordion__item > .accordion__header:first-of-type {
+.accordion__header:first-of-type {
     list-style-type: none;
 }
 
