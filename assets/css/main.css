@@ -26,8 +26,10 @@
     --spacing-s: 4px;
     --spacing-m: 8px;
     --spacing-l: 16px;
-    --spacing-xl: 32px;
-    --spacing-xxl: 64px;
+    --spacing-xl: 24px;
+    --spacing-xxl: 32px;
+    --spacing-xxxl: 48px;
+    --spacing-xxxxl: 62px;
 
     --disabled-opacity: 0.5;
     --active-opacity: 0.9;
@@ -42,6 +44,6 @@
     --font-size-normal: 16px;
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
