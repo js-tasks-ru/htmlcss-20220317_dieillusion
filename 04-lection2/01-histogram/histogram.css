@@ -1,5 +1,4 @@
 .histogram {
-    height: 185px;
     background: var(--white);
     border: var(--border-width) solid var(--grey-3);
     box-sizing: border-box;
