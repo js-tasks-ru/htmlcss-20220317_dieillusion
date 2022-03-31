@@ -1,7 +1,6 @@
 .skeleton {
     display: flex;
     flex-direction: column;
-    height: 192px;
     background: var(--white);
     border: var(--border-width) solid var(--grey-3);
     box-sizing: border-box;
