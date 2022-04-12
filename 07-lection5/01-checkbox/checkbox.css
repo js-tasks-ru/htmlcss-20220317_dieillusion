@@ -61,8 +61,5 @@
 
 .checkbox__input:disabled + .checkbox__inner .checkbox__square {
     background: var(--grey-2);
-}
-
-.checkbox__input:disabled:checked + .checkbox__inner .checkbox__square {
     border-color: var(--grey-2);
 }
