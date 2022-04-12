@@ -2,10 +2,68 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link href='https://fonts.googleapis.com/css2?family=Inter&display=swap' rel='stylesheet'>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
     </head>
-    <body>
+    <body style='padding: 48px; display: flex; flex-direction: column; gap: 16px;'>
 
+      <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input'>
+        <div class='checkbox__inner'>
+          <div class='checkbox__square'>
+            <svg class='checkbox__check-mark' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class='checkbox__label'>
+            Default
+          </div>
+        </div>
+      </label>
+
+      <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input' checked>
+        <div class='checkbox__inner'>
+          <div class='checkbox__square'>
+            <svg class='checkbox__check-mark' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class='checkbox__label'>
+            Checked
+          </div>
+        </div>
+      </label>
+
+      <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input' disabled>
+        <div class='checkbox__inner'>
+          <div class='checkbox__square'>
+            <svg class='checkbox__check-mark' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class='checkbox__label'>
+            Disabled
+          </div>
+        </div>
+      </label>
+
+      <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input' disabled checked>
+        <div class='checkbox__inner'>
+          <div class='checkbox__square'>
+            <svg class='checkbox__check-mark' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class='checkbox__label'>
+            Disabled and Checked
+          </div>
+        </div>
+      </label>
     </body>
 </html>
