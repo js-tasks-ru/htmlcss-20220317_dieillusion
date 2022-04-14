@@ -58,8 +58,7 @@
 
 .toggler__input:checked + .toggler__inner .toggler__circle {
     color: var(--white);
-    left: calc(100% - 1px);
-    transform: translateX(-100%);
+    transform: translateX(calc(100% + 1px));
 }
 
 .toggler__input:disabled + .toggler__inner .toggler__circle {
