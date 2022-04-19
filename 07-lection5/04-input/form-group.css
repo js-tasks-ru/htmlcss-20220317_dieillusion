@@ -1,0 +1,16 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.form-group__label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
